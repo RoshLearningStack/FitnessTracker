@@ -72,6 +72,9 @@
                 <plugin>
                     <artifactId>maven-war-plugin</artifactId>
                     <version>3.2.0</version>
+                    <goals>
+                        <goal>war</goal>
+                    </goals>
                 </plugin>
                 <plugin>
                     <artifactId>maven-install-plugin</artifactId>
